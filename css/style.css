@@ -1,0 +1,48 @@
+body {
+  font-size: 20px;
+}
+
+.headline {
+  background-image: url("../img/bg.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  box-sizing: border-box;
+}
+
+.headline h1 {
+  font-size: 5em;
+  color: white;
+  text-shadow: 4px 4px 40px rgb(50, 50, 50);
+}
+
+.headline p {
+  color: white;
+  font-size: 0.8em;
+  text-shadow: 3px 3px 20px grey;
+}
+
+.headline .btn {
+  width: 75px;
+}
+
+@media screen and (max-width: 500px) {
+  body {
+    font-size: 18px;
+  }
+
+  .headline h1 {
+    font-size: 3em;
+    color: white;
+    text-shadow: 4px 4px 26px rgb(50, 50, 50);
+  }
+  .headline p {
+    color: white;
+    font-size: 0.75em;
+    text-shadow: 3px 3px 10px grey;
+  }
+  .headline .btn {
+    width: 100%;
+    font-size: 20px;
+  }
+}
